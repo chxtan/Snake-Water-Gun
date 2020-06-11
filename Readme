@@ -1,1 +1,15 @@
+It is a core Python game without GUI. Basically it is a computer versus game where you will play against the computer. 
+You will get 10 chances to play where you need extra points from the computer to win.
+There are three options to choose: Snake, Water, Gun. For both user and computer.
 
+if user choose : Snake, Computer choose: Snake then it will tie move.
+if user choose : Snake, Computer choose: Water then User will win because snake will drink the water.
+if user choose : Snake, Computer choose: Gun then Computer will win because snake will be get shot by Gun.
+
+if user choose : Water, Computer choose: Water then it will tie move.
+if user choose : Water, Computer choose: Snake then Computer will win because snake will drink the water.
+if user choose : Water, Computer choose: Gun then User will win because gun will get drown in water.
+
+if user choose : Gun, Computer choose: Gun then it will tie move.
+if user choose : Gun, Computer choose: Water then Computer will win because gun will get drown in water.
+if user choose : Gun, Computer choose: Snake then User will win because snake will get shot by Gun.
